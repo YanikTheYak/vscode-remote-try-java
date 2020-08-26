@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - craneStacks",
+            "request": "launch",
+            "mainClass": "com.erwin.interview.craneStacks.craneStacks",
+            "projectName": "interview-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FizzBuzzRunner",
             "request": "launch",
             "mainClass": "com.erwin.interview.fizzbuzz.FizzBuzzRunner",

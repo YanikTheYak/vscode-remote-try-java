@@ -3,6 +3,5 @@
     "liveshare.allowGuestDebugControl": true,
     "liveshare.allowGuestTaskControl": true,
     "liveshare.languages.allowGuestCommandControl": true,
-    "extensions.ignoreRecommendations": true,
- 
+    "extensions.ignoreRecommendations": true 
 }
