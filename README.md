@@ -1,64 +1,51 @@
-# Try Out Development Containers: Java
+# Solve 3 Problems in Code Spaces : Java
 
-This is a sample project that lets you try out the **[VS Code Remote - Containers](https://aka.ms/vscode-remote/containers)** extension in a few easy steps.
+   **Crane Stacks - level out the stacks**
+   **FizzBuzz - the traditional coding challenge**
+   **Palendrome - the traditional palendrome problem**
 
-> **Note:** If you're following the quick start, you can jump to the [Things to try](#things-to-try) section. 
+This is a problem to solve in Java, but it uses **[VS Code Remote - Containers](https://aka.ms/vscode-remote/containers)** extension.
 
 ## Setting up the development container
 
-Follow these steps to open this sample in a container:
+Follow these steps to open a development container:
 
-1. If this is your first time using a development container, please follow the [getting started steps](https://aka.ms/vscode-remote/containers/getting-started).
+1. If this is your first time using a development container, you will need to setup Visual Studio Codespaces first....
 
-2. To use this repository, you can either open the repository in an isolated Docker volume:
+2. Log into **[Visual Studio Codespaces](https://online.visualstudio.com/environments)**
 
-    - Press <kbd>F1</kbd> and select the **Remote-Containers: Try a Sample...** command.
-    - Choose the "Java" sample, wait for the container to start and try things out!
-        > **Note:** Under the hood, this will use **Remote-Containers: Open Repository in Container...** command to clone the source code in a Docker volume instead of the local filesystem.
+3. Press the button on the right **"Create Codespace"**
 
-   Or open a locally cloned copy of the code:
+4. Add a Codespace Name. Choose what you like!
 
-   - Clone this repository to your local filesystem.
-   - Press <kbd>F1</kbd> and select the **Remote-Containers: Open Folder in Container...** command.
-   - Select the cloned copy of this folder, wait for the container to start, and try things out!
+5. Use this git repo as the repository.
+   **https://github.com/YanikTheYak/vscode-remote-try-java-interview**
+   
+6. Choose your machine size:
+   Basic (Linux): 2 Cores, 4 GB RAM is fine
+   
+7. Press **Create**
 
-## Things to try
-
-Once you have this sample opened in a container, you'll be able to work with it like you would locally.
-
-> **Note:** This container runs as a non-root user with sudo access by default. Comment out `"remoteUser": "vscode"` in `.devcontainer/devcontainer.json` if you'd prefer to run as root.
+You should get a VS Code configured environment (either in your browser, or in your local VS Code install).
+Now you can start solving the problem.
 
 Some things to try:
 
 1. **Edit:**
-   - Open `src/main/java/com/mycompany/app/App.java`.
-   - Try adding some code and check out the language features.
+   - Open `src/main/java/com/erwin/interview/craneStacks.java`.
+   - The problem is in the main comment.
+   - Try adding some code and run the tests.
 2. **Terminal:** Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>\`</kbd> and type `uname` and other Linux commands from the terminal window.
-3. **Build, Run, and Debug:**
-   - Open `src/main/java/com/mycompany/app/App.java`.
-   - Add a breakpoint.
-   - Press <kbd>F5</kbd> to launch the app in the container.
-   - Once the breakpoint is hit, try hovering over variables, examining locals, and more.
-4. **Run a Test:**
-   - Open `src/test/java/com/mycompany/app/AppTest.java`.
+   - e.g. **mvn clean test**  to run all the test cases.
+3. **Run a Test:**
+   - Open `src/test/java/com/erwin/interview/craneStacksTest.java`.
    - Put a breakpoint in a test.
    - Click the `Debug Test` in the Code Lens above the function and watch it hit the breakpoint.
-  
-## Contributing
-
-This project welcomes contributions and suggestions. Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
-
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+   - NB: This only works if you not Live Sharing 
 
 ## License
 
+VS Code and Container initialization code is
 Copyright © Microsoft Corporation All rights reserved.<br />
 Licensed under the MIT License. See LICENSE in the project root for license information.
+
