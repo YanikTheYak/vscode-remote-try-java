@@ -7,7 +7,7 @@
    **Palendrome - the traditional palendrome problem**
    
 
-This is a problem to solve in Java, but it uses **[VS Code Remote - Containers](https://aka.ms/vscode-remote/containers)** extension.
+These are problems to solve in Java, but it uses **[VS Code Remote - Containers](https://aka.ms/vscode-remote/containers)** extension.
 
 ## Setting up the development container
 
