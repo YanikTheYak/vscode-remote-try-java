@@ -52,3 +52,5 @@ VS Code and Container initialization code is
 Copyright © Microsoft Corporation All rights reserved.<br />
 Licensed under the MIT License. See LICENSE in the project root for license information.
 
+The problem code is added by myself, and is fairly standard algorithmic exercises. I have added no additional licensing to them.
+
