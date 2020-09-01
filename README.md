@@ -1,8 +1,11 @@
 # Solve 3 Problems in Code Spaces : Java
 
    **Crane Stacks - level out the stacks**
+   
    **FizzBuzz - the traditional coding challenge**
+   
    **Palendrome - the traditional palendrome problem**
+   
 
 This is a problem to solve in Java, but it uses **[VS Code Remote - Containers](https://aka.ms/vscode-remote/containers)** extension.
 
