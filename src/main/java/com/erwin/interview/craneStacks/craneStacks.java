@@ -42,6 +42,12 @@ package com.erwin.interview.craneStacks;
 public class craneStacks {
     public static String calculate(int clawPos, int[] stacks, boolean boxInClaw) {
         // Write your code here
+
+        // Sample debug code       
+        System.out.printf("clawPos=%d, stack1=%d, stack2=%d, boxInClaw=%b\n", clawPos, stacks[0], stacks[1], boxInClaw);
+
+        // Sample return, nb: Returning nothing will cause an error
         return "";
     }
 }
+
