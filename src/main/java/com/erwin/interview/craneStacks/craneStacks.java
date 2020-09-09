@@ -40,11 +40,11 @@ package com.erwin.interview.craneStacks;
 /***********************************************************************/
 
 public class craneStacks {
-    public static String calculate(int clawPos, int[] stacks, boolean boxInClaw) {
+    public static String calculate(int clawPos, int[] stacks, boolean boxInClaw, String lastOperation) {
         // Write your code here
 
         // Sample debug code       
-        System.out.printf("clawPos=%d, stack1=%d, stack2=%d, boxInClaw=%b\n", clawPos, stacks[0], stacks[1], boxInClaw);
+        System.out.printf("clawPos=%d, stack1=%d, stack2=%d, boxInClaw=%b, lastOperation=%s\n", clawPos, stacks[0], stacks[1], boxInClaw, lastOperation);
 
         // Sample return, nb: Returning nothing will cause an error
         return "";

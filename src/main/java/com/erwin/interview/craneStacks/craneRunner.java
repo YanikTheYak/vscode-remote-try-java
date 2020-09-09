@@ -8,11 +8,13 @@ public class craneRunner {
         // game loop
         int looping = 1;
         int clawPos = startPos;
+        String lastOperation = "";
         boolean boxInClaw = false;
 
         while (looping <= maxSteps) {
 
-            String action = craneStacks.calculate(clawPos, stacks, boxInClaw);
+            String action = craneStacks.calculate(clawPos, stacks, boxInClaw, lastOperation);
+            lastOperation = action;
             switch (action) {
                 case "LEFT": {
                     if (clawPos == 0)
