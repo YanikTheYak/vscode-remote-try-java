@@ -15,6 +15,7 @@ package com.erwin.interview.craneStacks;
 // boxInClaw is set to 'true' if there is a box in the claw, or 'false'
 // if the claw is empty
 // clawPos tells you which stack the claw is positioned above
+// lastDirection tells you which direction the crane last moved in
 //
 // The claw will call the 'calculate' method at the start, and then each
 // time you tell it to do something.
@@ -40,11 +41,11 @@ package com.erwin.interview.craneStacks;
 /***********************************************************************/
 
 public class craneStacks {
-    public static String calculate(int clawPos, int[] stacks, boolean boxInClaw, String lastOperation) {
+    public static String calculate(int clawPos, int[] stacks, boolean boxInClaw, String lastDirection) {
         // Write your code here
 
         // Sample debug code       
-        System.out.printf("clawPos=%d, stack1=%d, stack2=%d, boxInClaw=%b, lastOperation=%s\n", clawPos, stacks[0], stacks[1], boxInClaw, lastOperation);
+        System.out.printf("clawPos=%d, stack1=%d, stack2=%d, boxInClaw=%b, lastDirection=%s\n", clawPos, stacks[0], stacks[1], boxInClaw, lastDirection);
 
         // Sample return, nb: Returning nothing will cause an error
         return "";

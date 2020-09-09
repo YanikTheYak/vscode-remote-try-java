@@ -8,21 +8,22 @@ public class craneRunner {
         // game loop
         int looping = 1;
         int clawPos = startPos;
-        String lastOperation = "";
+        String lastDirection = "";
         boolean boxInClaw = false;
 
         while (looping <= maxSteps) {
 
-            String action = craneStacks.calculate(clawPos, stacks, boxInClaw, lastOperation);
-            lastOperation = action;
+            String action = craneStacks.calculate(clawPos, stacks, boxInClaw, lastDirection);
             switch (action) {
                 case "LEFT": {
+                    lastDirection = action;
                     if (clawPos == 0)
                         throw new UnsupportedOperationException("CAN'T GO LEFT");
                     clawPos--;
                     break;
                 }
                 case "RIGHT": {
+                    lastDirection = action;
                     if (clawPos == stacks.length - 1)
                         throw new UnsupportedOperationException("CAN'T GO RIGHT");
                     clawPos++;
